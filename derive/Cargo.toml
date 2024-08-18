@@ -1,0 +1,21 @@
+[package]
+name = "permafrost-derive"
+authors = ["advantageous-overtake <wfrsk@proton.me>"]
+description = "proc-macro for the permafrost crate"
+readme = "../README.md"
+repository = "https://github.com/advantageous-overtake/permafrost"
+license = "GPL-3.0"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+proc-macro = true
+
+[dependencies]
+convert_case = "0.6"
+phf = { version = "0.11", features = ["macros"] }
+proc-macro2 = "1"
+proc-macro2-diagnostics = "0.10"
+quote = "1"
+syn = "2"

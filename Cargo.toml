@@ -1,0 +1,4 @@
+[workspace]
+members = ["derive", "permafrost"]
+
+resolver = "2"

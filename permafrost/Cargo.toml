@@ -1,0 +1,12 @@
+[package]
+name = "permafrost"
+authors = ["advantageous-overtake <wfrsk@proton.me>"]
+description = "Write. Macros. Everywhere."
+readme = "../README.md"
+repository = "https://github.com/advantageous-overtake/permafrost"
+license = "GPL-3.0"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+permafrost-derive = { version = "0.1.0", path = "../derive" }
