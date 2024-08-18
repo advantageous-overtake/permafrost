@@ -45,7 +45,7 @@ But seeing how the `paste` crate is not regurarly updated anymore, and that I ne
 # Structure
 
 All is passed to the `embed` macro, which is the entry point for the underlying engine.
-//!
+
 Initially, only a `token tree` is passed to be top-level transformer in an arbitrary `transformer chain`, then computations are done purely through `token stream`s.
 
 ## Blocks
