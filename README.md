@@ -1,3 +1,5 @@
+# NOTE: This is a mirror that is not regularly pushed to, if you wish to depend on this crate, open an issue
+
 # Permafrost
 
 This crate provides a procedural macro for embedding data into your Rust code.
